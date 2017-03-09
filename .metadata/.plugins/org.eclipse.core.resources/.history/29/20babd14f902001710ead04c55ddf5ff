@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.example.web;
+
+/**
+ * @author Administrator
+ *
+ */
+@Controller
+public class Controller {
+
+}

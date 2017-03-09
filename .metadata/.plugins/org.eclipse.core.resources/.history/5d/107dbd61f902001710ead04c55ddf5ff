@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.example.web;
+
+/**
+ * @author Administrator
+ *
+ */
+@org.springframework.stereotype.Controller
+public class Controller {
+
+}

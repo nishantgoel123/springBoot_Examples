@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.example.rest;
+
+import java.util.Date;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author Administrator
+ *
+*/
+@RestController
+public class MyResource {
+
+	
+	public String greet(){
+	return "Hello" + new Date();
+	}
+}

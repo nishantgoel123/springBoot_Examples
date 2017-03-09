@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<title>Html Rendered usuing Thymeleaf is a templating engine</title>
+</head>
+<body>
+
+<h1>rate for toll bath</h1>
+
+<p th:text="'Rate for toll booth ' + ${lanes} + 'price' + ${rate} + 'tollStart' + ${tollStart}" ></p>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.example.repository;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+
+/**
+ * @author Administrator
+ *
+ */
+@FeignClient("tollusagems")
+public class TollUsageFeignMSRepo {
+
+}
